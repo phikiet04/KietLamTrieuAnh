@@ -1,0 +1,6 @@
+RewriteEngine on 
+RewriteBase /DoAnPhp/ 
+RewriteRute ^index\\.php$-[L] 
+RewriteReRond %{REQUEST_FILENAME} !-f
+RewriteReRond %{REQUEST_FILENAME} !-d
+RewriteRule./DoAnPhp/index.php[L]
